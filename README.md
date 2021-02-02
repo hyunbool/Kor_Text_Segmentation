@@ -23,8 +23,10 @@ demonstrates how to use the class.
 ## Embeddings
 
 1) https://github.com/ratsgo/embedding/releases 에서 제공하는 word-embeddings.zip 중 glove 사용
-
 2) https://github.com/jroakes/glove-to-word2vec/blob/master/convert.py 이용해 glove => word2vec
 
-* 일단 원작자도 glove를 사용했길래 일단 이렇게 했는데... word2vec으로 다시 시도해보기
+## 토크나이징
+* all_doc_tokens: 형태소 단위로 토크나이징(Okt.morphs() 사용)
+* token_index: all_doc_tokens의 인덱스
+* doc_tokens: all_doc_tokens 중 명사들만 
 
